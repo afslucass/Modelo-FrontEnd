@@ -1,0 +1,49 @@
+#titulo-content{
+    margin: 40px;
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    height: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+section > article{
+    height: 200px;
+    min-height: 150px;
+    width: 410px;
+    min-width: 300px;
+
+    background-color:black;
+    margin: 20px;
+    overflow: hidden;
+    transition-duration: 0.5s ;
+}
+
+article:hover{
+    padding-bottom: 40px;
+}
+
+article > img{
+    float: left;
+    height: 100%;
+}
+article > div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-align: left;
+    float: right;
+}

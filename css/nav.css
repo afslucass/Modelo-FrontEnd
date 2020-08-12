@@ -1,0 +1,56 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#navEsq{
+    padding-left: 20px;
+}
+#navDir{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#videoBack{
+    height: 500px;
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#videoBack > video{
+    position: absolute;
+    z-index: 0;
+}
+#videoBack > p{
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    z-index: 1;
+}
+#videoBack > div{
+    z-index: 1;
+}

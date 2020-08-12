@@ -1,0 +1,63 @@
+form{
+    min-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#label-principal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 30px;
+    text-align: center;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#nome,#telefone,#email{
+    width: 30%;
+    min-width: 280px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    background: none;
+    outline: none;
+
+    border-bottom: white 1px solid;
+}
+#nome:hover,#telefone:hover,#email:hover{
+    background-color: transparent;
+}
+
+#submit{
+    margin: 20px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    
+    border: none;
+    padding: 10px;
+    background: none;
+    outline: none;
+
+    border-bottom: white 1px solid;
+    color: white;
+}

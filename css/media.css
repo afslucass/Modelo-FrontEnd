@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+
+    section > article{
+        height: 300px;
+        width: 100%;
+    }
+    
+    article:hover{
+        padding-bottom: 300px;
+    }
+    
+    article > img{
+        float: none;
+        height: 100%;
+    }
+    article > div{
+        height: 80%;
+        width: 80%;
+        float: none;
+        margin: auto;
+        font-size: 18px;  
+    }
+
+}
